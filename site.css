@@ -1,0 +1,76 @@
+body {
+  font-family: Liberation Sans, Arial, sans-serif;
+  background-color: ;
+  line-height: 1.5;
+  background: #9bc3d5 url(./images/bg.png) top repeat-x;
+}
+main {
+  max-width: 70ch;
+  padding: 2ch;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #666;
+}
+header {
+  margin-bottom: 1.5rem;
+}
+h1 {
+  margin-bottom: .5rem;
+  color: #7f1d1d;
+}
+time {
+  color: #888;
+  text-decoration: italic;
+}
+pre {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+hr {
+  margin-top: 2rem;
+}
+#fn {
+  font-size: 85%;
+}
+a {
+  color: #7f1d1d;
+  text-decoration: none;
+  outline: 0;
+}
+a:visited {
+  color: #7f1d1d;
+}
+a:hover {
+  text-decoration: underline;
+}
+::selection {
+  background-color: #fff888;
+}
+i {
+  font-size: 75%;
+}
+img.cover {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-color: #eee #ccc #ccc #eee;
+  float: left;
+  margin-right: 10px;
+  width: 180px;
+}
+img.lightbulb {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-color: #eee #ccc #ccc #eee;
+  float: right;
+  margin-left: 10px;
+  width: 140px;
+}
+img.group_logo {
+  padding: 4px;
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+}
+div.author {
+  padding: 10px 0px;
+}
