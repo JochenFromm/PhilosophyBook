@@ -49,21 +49,33 @@ a:hover {
 i {
   font-size: 75%;
 }
+pre.product {
+  margin-left: 160px;
+  padding-left: 8px;
+}
 img.cover {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-color: #eee #ccc #ccc #eee;
+  float: right;
+  margin-right: 10px;
+  width: 160px;
+}
+img.lighthouse {
   padding: 4px;
   border: 1px solid #ccc;
   border-color: #eee #ccc #ccc #eee;
   float: left;
   margin-right: 10px;
-  width: 180px;
+  width: 220px;
 }
-img.lightbulb {
+img.woman_bookshelf {
   padding: 4px;
   border: 1px solid #ccc;
   border-color: #eee #ccc #ccc #eee;
-  float: right;
-  margin-left: 10px;
-  width: 140px;
+  float: left;
+  margin-right: 10px;
+  width: 150px;
 }
 img.group_logo {
   padding: 4px;
